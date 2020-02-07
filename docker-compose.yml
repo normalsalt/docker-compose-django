@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     container_name: docker-compose-django-db
-    image: postgres:11.5-alpine
+    image: postgres:11.6-alpine
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
   web:
