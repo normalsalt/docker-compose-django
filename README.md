@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.0/
 docker-compose up -d
 ```
 
+Now, open http://localhost:8000 in your browser.
+
 ## migrate
 
 ```
